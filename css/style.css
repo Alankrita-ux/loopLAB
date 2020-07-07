@@ -1,0 +1,160 @@
+/*-------------navigation bar---------*/
+
+#nav-bar .navbar {
+  border-bottom: 3px solid #008ed6;
+  opacity: 0.8;
+}
+
+#nav-bar .navbar-brand {
+  margin-left: 80px;
+  color: #fff;
+}
+
+#nav-bar ul li a.nav-link {
+  color: grey;
+  margin-right: 30px;
+}
+
+#nav-bar ul li a.nav-link:hover {
+  color: #fff;
+  margin-right: 30px;
+}
+
+#nav-bar .nav-item.active .nav-link {
+  color: #fff;
+}
+
+/*---------home-------*/
+
+#home h1 {
+  font-size: 30px;
+}
+
+#home h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#home h3 {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#home .btn {
+  width: 100%;
+}
+
+#home .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+#home {
+  background-image: url(../img/home.jpg);
+  background-attachment: fixed;
+  min-height: 500px;
+  position: relative;
+  background-position: center;
+}
+
+#home .overlay {
+  background-color: #333333;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+/*--=------explore-------*/
+
+#explore h1 {
+  font-size: 50px;
+}
+
+#explore p {
+  font-size: 20px;
+}
+
+/*-------E&C---------*/
+
+#EandC img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#EandC .fa-check {
+  background: #333333;
+  color: #fff;
+}
+
+/*--------create-------*/
+
+#create {
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+#create h1 {
+  font-size: 50px;
+}
+
+#create p {
+  font-size: 20px;
+}
+
+/*-------create your passion------*/
+
+#CYP img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#CYP {
+  background-color: #333333;
+}
+
+#CYP .fa-check {
+  background: #fff;
+  color: #008ed6;
+}
+
+/*--------share-------*/
+
+#share {
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+#share h1 {
+  font-size: 50px;
+}
+
+#share p {
+  font-size: 20px;
+}
+
+/*--------share what you create------*/
+
+#SWYC img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#SWYC .fa-check {
+  background: #333333;
+  color: #fff;
+}
+
+/*-------footer-----*/
+
+#footer {
+  background-color: #333333;
+  margin-top: 20px;
+}
